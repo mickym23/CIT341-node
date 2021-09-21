@@ -85,7 +85,7 @@ router.get('/stretch-1', (req, res, next) => {
   // Really basic styling with some pizzazz....
   res.write('<style>');
   res.write(
-    'body { background-image: linear-gradient(' +
+    'body {  background-image: linear-gradient(' +
       'to left, violet, indigo, blue, green, yellow, orange, red); color: White}'
   );
   res.write('</style>');
